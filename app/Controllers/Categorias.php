@@ -32,4 +32,10 @@ class Categorias extends BaseController
 
         return redirect()->to(base_url().'categorias');
     }
+    public function form_editar(){
+        return view('categorias/formulario_editar');
+    }
+    public function editar(){
+
+    }
 }

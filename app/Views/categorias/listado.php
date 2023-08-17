@@ -25,8 +25,8 @@
                 <td><?php echo $categoria['nom_categoria']; ?></td>
                 <td><?php echo $categoria['des_categoria']; ?></td>
                 <td>
-                    <a type="button" class="btn btn-primary">Editar</a>
-                    <a type="button" class="btn btn-danger">Eliminar</a>
+                    <a type="button" class="btn btn-primary" href="<?php echo base_url().'categorias/editar/'.$categoria['id'];?>">Editar</a>
+                    <a type="button" class="btn btn-danger" href="<?php echo base_url().'categorias/eliminar/'.$categoria['id'];?>">Eliminar</a>
                 </td>
             </tr>
             <?php endforeach; ?>
