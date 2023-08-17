@@ -13,7 +13,7 @@ class CategoryModel extends Model
     protected $returnType       = 'array';
     // protected $useSoftDeletes   = false;
     // protected $protectFields    = true;
-    protected $allowedFields    = ['nom_categoria','desc_categoria'];//atributos de la base de datos
+    protected $allowedFields    = ['nom_categoria','des_categoria'];//atributos de la base de datos
 
     // Dates
     // protected $useTimestamps = false;
@@ -39,5 +39,5 @@ class CategoryModel extends Model
     // protected $beforeDelete   = [];
     // protected $afterDelete    = [];
 
-    
+
 }
